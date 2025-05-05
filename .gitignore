@@ -1,0 +1,61 @@
+# Ignore executable files
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build system files
+*.pdb
+*.idb
+*.ilk
+*.dll
+*.lib
+*.exp
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore build folders
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/out/
+
+# Ignore CMake build files (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Code::Blocks files (if used)
+*.cbp
+*.layout
+*.depend
+*.layout.save
+
+# Ignore Visual Studio files (if used)
+*.sln
+*.vcxproj*
+*.ncb
+*.suo
+*.user
+*.aps
+*.pch
+*.tlog
+*.log
+ipch/
+*.opensdf
+*.sdf
+
+# Ignore compiled Python files if any
+__pycache__/
+*.pyc
